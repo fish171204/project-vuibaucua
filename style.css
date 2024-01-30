@@ -1,0 +1,102 @@
+#chiếu {
+  background-image: url("chiếu.png");
+  background-size:100% 100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#ovuong {
+  display: flex;
+  position: absolute;
+  top: 1726px;
+  left: 41%;
+  justify-content: center;
+  text-align: center;
+}
+
+#results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 972px;
+  
+}
+
+.result1,
+.result2,
+.result3 {
+  width: 200px;
+  height: 100px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+  border: 2px solid rgb(40, 226, 114);
+}
+
+button {
+  margin: 20px;
+  top:60px;
+}
+
+#shake {
+  display: flex;
+  justify-content: center;
+  width: 293px;
+  height: 109px;
+  background-color: rgb(218, 42, 42); /* Màu nền của button */
+color: rgb(15, 5, 5); /* Màu chữ trên button */
+padding: 10px 20px; /* Khoảng cách giữa nội dung và viền button */
+border: none; /* Xóa viền của button */
+border-radius: 55px; /* Bo tròn góc của button */
+}
+
+#open {
+  display: flex;
+  justify-content: center;
+  width: 293px;
+  height: 109px;
+  background-color: rgb(48, 224, 115); /* Màu nền của button */
+color: rgb(12, 3, 3); /* Màu chữ trên button */
+padding: 10px 20px; /* Khoảng cách giữa nội dung và viền button */
+border: none; /* Xóa viền của button */
+border-radius: 55px; /* Bo tròn góc của button */
+}
+
+#bowl {
+  position: absolute;
+  top: 850px;
+  left: 39%;
+  transform: translateX(0); /* Thêm hiệu ứng dịch chuyển ban đầu */
+  transition: transform 0.5s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+#disc {
+  text-align: center;
+  margin: -1563px;
+  
+}
+img { 
+  border-radius: 600px;
+}
+.diaxx {
+  width: 880px;
+height: auto;
+
+}
+.batxx {
+  width: 800px;
+  height: auto;
+}
+.h1x {
+  margin: 0%;
+}
+.result-shake {
+  animation: shake 0.5s linear infinite;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
